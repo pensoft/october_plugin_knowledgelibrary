@@ -53,6 +53,9 @@ class RecordsList extends ComponentBase
         if($dateTo){
             $result->where('date', '<=', Carbon::parse($dateTo));
         }
+
+        $result->orderBy('date', 'desc')->orderBy('title', 'asc');
+
         return $result->get();
     }
 }

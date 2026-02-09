@@ -24,3 +24,5 @@
     - 'Component'
 1.0.10:
     - 'Pretty authors'
+1.0.11:
+    - 'Fixed order date desc'
