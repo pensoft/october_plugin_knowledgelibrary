@@ -1,0 +1,24 @@
+columns:
+    title:
+        label: title
+        type: text
+        searchable: true
+        invisible: false
+        sortable: true
+    date:
+        label: date
+        type: text
+        searchable: true
+        sortable: true
+    format:
+        label: format
+        searchable: true
+        sortable: true
+        relation: format
+        select: title
+    project:
+        label: project
+        searchable: true
+        sortable: true
+        relation: project
+        select: title

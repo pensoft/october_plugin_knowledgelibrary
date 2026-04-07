@@ -1,0 +1,4 @@
+title: Data
+modelClass: Pensoft\Knowledgelibrary\Models\Data
+toolbar:
+    buttons: reorder_toolbar

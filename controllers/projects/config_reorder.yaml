@@ -1,0 +1,5 @@
+title: Projects
+nameFrom: title
+modelClass: Pensoft\Knowledgelibrary\Models\Project
+toolbar:
+    buttons: reorder_toolbar

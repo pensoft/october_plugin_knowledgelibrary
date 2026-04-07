@@ -1,0 +1,89 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    authors:
+        label: Authors
+        mode: string
+        separator: comma
+        customTags: true
+        useKey: false
+        span: auto
+        type: taglist
+    format:
+        label: Format
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    project:
+        label: Project
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    date:
+        label: Date
+        mode: date
+        span: auto
+        type: datepicker
+    cover:
+        label: 'File preview'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    file:
+        label: File
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    file_langs:
+        label: 'File language versions'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    doi:
+        label: URL/DOI
+        span: auto
+        type: text
+    journal:
+        label: Journal
+        span: auto
+        type: text
+    volume:
+        label: Volume
+        span: auto
+        type: text
+    status:
+        label: Status
+        span: auto
+        type: text
+    place:
+        label: Place
+        span: auto
+        type: text
+    pages:
+        label: Pages
+        span: auto
+        type: text
+    source:
+        label: Source
+        span: auto
+        type: text
+    web_page:
+        label: 'Web page'
+        span: auto
+        type: text

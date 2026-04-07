@@ -1,0 +1,10 @@
+name: Projects
+form: $/pensoft/knowledgelibrary/models/project/fields.yaml
+modelClass: Pensoft\Knowledgelibrary\Models\Project
+defaultRedirect: pensoft/knowledgelibrary/projects
+create:
+    redirect: 'pensoft/knowledgelibrary/projects/update/:id'
+    redirectClose: pensoft/knowledgelibrary/projects
+update:
+    redirect: pensoft/knowledgelibrary/projects
+    redirectClose: pensoft/knowledgelibrary/projects

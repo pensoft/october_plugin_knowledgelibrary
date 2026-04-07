@@ -1,0 +1,5 @@
+title: Formats
+nameFrom: title
+modelClass: Pensoft\Knowledgelibrary\Models\Format
+toolbar:
+    buttons: reorder_toolbar

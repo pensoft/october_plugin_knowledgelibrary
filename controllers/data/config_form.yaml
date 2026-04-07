@@ -1,0 +1,10 @@
+name: Data
+form: $/pensoft/knowledgelibrary/models/data/fields.yaml
+modelClass: Pensoft\Knowledgelibrary\Models\Data
+defaultRedirect: pensoft/knowledgelibrary/data
+create:
+    redirect: 'pensoft/knowledgelibrary/data/update/:id'
+    redirectClose: pensoft/knowledgelibrary/data
+update:
+    redirect: pensoft/knowledgelibrary/data
+    redirectClose: pensoft/knowledgelibrary/data

@@ -1,0 +1,10 @@
+name: Formats
+form: $/pensoft/knowledgelibrary/models/format/fields.yaml
+modelClass: Pensoft\Knowledgelibrary\Models\Format
+defaultRedirect: pensoft/knowledgelibrary/formats
+create:
+    redirect: 'pensoft/knowledgelibrary/formats/update/:id'
+    redirectClose: pensoft/knowledgelibrary/formats
+update:
+    redirect: pensoft/knowledgelibrary/formats
+    redirectClose: pensoft/knowledgelibrary/formats

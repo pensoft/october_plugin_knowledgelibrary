@@ -1,0 +1,24 @@
+plugin:
+    name: 'pensoft.knowledgelibrary::lang.plugin.name'
+    description: 'pensoft.knowledgelibrary::lang.plugin.description'
+    author: Pensoft
+    icon: oc-icon-book
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Knowledge library'
+        url: pensoft/knowledgelibrary/data
+        icon: icon-book
+        sideMenu:
+            side-menu-item3:
+                label: Library
+                url: pensoft/knowledgelibrary/data
+                icon: icon-database
+            side-menu-item:
+                label: Formats
+                url: pensoft/knowledgelibrary/formats
+                icon: icon-square
+            side-menu-item2:
+                label: Projects
+                url: pensoft/knowledgelibrary/projects
+                icon: icon-star

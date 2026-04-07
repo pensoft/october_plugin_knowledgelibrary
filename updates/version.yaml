@@ -1,0 +1,31 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table pensoft_knowledgelibrary_formats'
+    - builder_table_create_pensoft_knowledgelibrary_formats.php
+1.0.3:
+    - 'Created table pensoft_knowledgelibrary_projects'
+    - builder_table_create_pensoft_knowledgelibrary_projects.php
+1.0.4:
+    - 'Updated table pensoft_knowledgelibrary_formats'
+    - builder_table_update_pensoft_knowledgelibrary_formats.php
+1.0.5:
+    - 'Created table pensoft_knowledgelibrary_data'
+    - builder_table_create_pensoft_knowledgelibrary_data.php
+1.0.6:
+    - 'Updated table pensoft_knowledgelibrary_projects'
+    - builder_table_update_pensoft_knowledgelibrary_projects.php
+1.0.7:
+    - 'Updated table pensoft_knowledgelibrary_formats'
+    - builder_table_update_pensoft_knowledgelibrary_formats_2.php
+1.0.8:
+    - 'Composer'
+1.0.9:
+    - 'Component'
+1.0.10:
+    - 'Pretty authors'
+1.0.11:
+    - 'Fixed order date desc'
+
+4.0.1:
+    - 'Migrated to OctoberCMS 4 and PHP 8.2'
